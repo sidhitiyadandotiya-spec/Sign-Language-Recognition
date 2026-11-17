@@ -1,0 +1,14 @@
+# Streamlit Cloud deployment: exclude large local files
+# that are either regenerated at runtime or are user-private
+model/gesture_rf.joblib
+model/gesture_rf_labels.json
+model/hand_landmarker.task
+data/embeddings.json
+data/users.json
+data/user_data/
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+

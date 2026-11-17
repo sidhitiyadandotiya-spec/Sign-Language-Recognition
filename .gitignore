@@ -1,0 +1,40 @@
+# ── Large binary / generated files (too big for git, regenerated at runtime) ──
+model/gesture_rf.joblib
+model/gesture_rf_labels.json
+model/hand_landmarker.task
+
+# ── Per-user private vaults (never commit user data) ──
+data/user_data/
+
+# ── Global embeddings (large; seed from bootstrap_dataset.py on first run) ──
+data/embeddings.json
+
+# ── Users credentials (security) ──
+data/users.json
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──
+venv/
+.venv/
+env/
+.env/
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Streamlit local secrets & cache ──
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# ── Pytest & coverage ──
+.pytest_cache/
+htmlcov/
+.coverage
